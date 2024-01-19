@@ -11,7 +11,12 @@ function clearResults() {
 // Gather User Input
 function gatherUserInput(event) {
     event.preventDefault();
-    console.log("Submit");
+
+    let inputArray = []
+
+    const userInput = parseInt(document.getElementById("number").value);
+    inputArray.push(userInput);
+    console.log(inputArray);
 }
 
 
