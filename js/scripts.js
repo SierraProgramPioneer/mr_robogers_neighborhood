@@ -8,15 +8,24 @@ function clearResults() {
 }
 
 
+
+
+
+function inputArray(userInput) {
+    let inputArray = [];
+    for (let index = 0; index <= userInput; index++) {
+        inputArray.push(index);
+    }
+    console.log(inputArray);
+}
+
+
 // Gather User Input
 function gatherUserInput(event) {
     event.preventDefault();
 
-    let inputArray = []
-
     const userInput = parseInt(document.getElementById("number").value);
-    inputArray.push(userInput);
-    console.log(inputArray);
+    inputArray(userInput);
 }
 
 
