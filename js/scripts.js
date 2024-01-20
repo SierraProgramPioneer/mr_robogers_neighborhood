@@ -9,12 +9,31 @@ function clearResults() {
 
 
 
+function interpretNumber(number) {
+    const numberString = number.toString();
+
+    // If includes 3 "Won't you be my neighbor?"
+    if (numberString.includes('3')) {
+        return "Won't you be my neighbor?"
+    }
+    // Else if includes 2 "Boop!"
+    else if (numberString.includes('2')) {
+        return "Boop!"
+    }
+    // Else if includes 1 "Beep!"
+    else if (numberString.includes('1')) {
+        return "Beep!"
+    }
+    else {
+        return number;
+    }
+}
 
 
 function processArray(inputArray) {
     let outputArray = [];
     inputArray.forEach(function (number) {
-        let output = number;
+        let output = interpretNumber(number);
         outputArray.push(output);
     });
     console.log(outputArray);
