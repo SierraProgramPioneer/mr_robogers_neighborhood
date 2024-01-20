@@ -1,6 +1,13 @@
 body {
-    background-color: rgb(81, 31, 152);
+    background-color: rgb(57, 146, 182);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+img {
+    height: 350px;
+    width: auto;
+    padding: 30px;
 }

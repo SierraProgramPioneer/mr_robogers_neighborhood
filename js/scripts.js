@@ -15,6 +15,8 @@ function respond(response) {
 }
 
 
+// Business Logic
+
 function interpretNumber(number) {
     const numberString = number.toString();
 
