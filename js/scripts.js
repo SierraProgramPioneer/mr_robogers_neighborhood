@@ -11,12 +11,22 @@ function clearResults() {
 
 
 
+function processArray(inputArray) {
+    let outputArray = [];
+    inputArray.forEach(function (number) {
+        let output = number;
+        outputArray.push(output);
+    });
+    console.log(outputArray);
+}
+
+
 function inputArray(userInput) {
     let inputArray = [];
     for (let index = 0; index <= userInput; index++) {
         inputArray.push(index);
     }
-    console.log(inputArray);
+    processArray(inputArray);
 }
 
 

@@ -19,3 +19,16 @@ Code:
     console.log(inputArray);
 Input: 5
 Expected Output: [0, 1, 2, 3, 4, 5]
+
+Describe: processAray(inputArray)
+
+Test: "It should return a new array that counts from 0 up to an including the user's input"
+Code:
+    let outputArray = [];
+    inputArray.forEach(function (number) {
+        let output = number;
+        outputArray.push(output);
+    });
+    console.log(outputArray);
+Input: 5
+Expected Output: [0, 1, 2, 3, 4, 5]
