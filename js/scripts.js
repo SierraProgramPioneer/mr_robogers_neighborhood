@@ -5,13 +5,15 @@
 function clearResults() {
     const clear = document.getElementById("clear")
     clear.addEventListener("click", function () {
-        console.log("Clear");
+        let responseField = document.getElementById("response");
+        responseField.innerText = "";
     })
 }
 
 
 function respond(response) {
-    console.log(response)
+    let responseField = document.getElementById("response");
+    responseField.innerText = response;
 }
 
 
