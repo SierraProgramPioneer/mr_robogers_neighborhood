@@ -6,7 +6,7 @@ function clearResults() {
     const clear = document.getElementById("clear")
     clear.addEventListener("click", function () {
         let responseField = document.getElementById("response");
-        responseField.innerText = "";
+        responseField.innerText = "Say something else!";
     })
 }
 

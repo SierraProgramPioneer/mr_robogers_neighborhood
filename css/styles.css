@@ -19,12 +19,21 @@ body {
     padding: 20px;
 }
 
+label {
+    font-size: 24px;
+}
+
+input {
+    background-color: #fff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
 img {
     height: 350px;
     width: auto;
     padding: 30px;
-}
-
-label {
-    font-size: 24px;
 }
