@@ -1,3 +1,5 @@
+// UI Logic
+
 // Clear User Input
 
 function clearResults() {
@@ -7,6 +9,10 @@ function clearResults() {
     })
 }
 
+
+function respond(response) {
+    console.log(response)
+}
 
 
 function interpretNumber(number) {
@@ -36,7 +42,8 @@ function processArray(inputArray) {
         let output = interpretNumber(number);
         outputArray.push(output);
     });
-    console.log(outputArray);
+    const response = outputArray.join(" ");
+    respond(response);
 }
 
 
