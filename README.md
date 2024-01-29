@@ -1,6 +1,6 @@
 # Mr. Robogers Neighborhood
 
-#### By Melissa Parker
+#### By [Melissa Parker](https://github.com/SierraProgramPioneer)
 
 ## Table of Contents
 1. Technologies Used
